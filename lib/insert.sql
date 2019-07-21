@@ -33,34 +33,35 @@ INSERT INTO users (id, name, age) VALUES
 (18, "Rachel", 19),
 (19, "Mitch", 28),
 (20, "Zeke", 23);
---
--- INSERT INTO pledges VALUES (200, 7, 2);
--- INSERT INTO pledges VALUES (2000, 20, 1);
--- INSERT INTO pledges VALUES (400, 3, 10);
--- INSERT INTO pledges VALUES (50, 20, 9);
--- INSERT INTO pledges VALUES (5000, 19, 4);
--- INSERT INTO pledges VALUES (200, 3, 5);
--- INSERT INTO pledges VALUES (100, 13, 6);
--- INSERT INTO pledges VALUES (400, 15, 7);
--- INSERT INTO pledges VALUES (100, 3, 8);
--- INSERT INTO pledges VALUES (99, 1, 9);
--- INSERT INTO pledges VALUES (20, 3, 10);
--- INSERT INTO pledges VALUES (300, 2, 1);
--- INSERT INTO pledges VALUES (250, 4, 2);
--- INSERT INTO pledges VALUES (22, 5, 1);
--- INSERT INTO pledges VALUES (2010, 6, 2);
--- INSERT INTO pledges VALUES (5, 8, 3);
--- INSERT INTO pledges VALUES (100, 9, 4);
--- INSERT INTO pledges VALUES (150, 10, 5);
--- INSERT INTO pledges VALUES (175, 11, 6);
--- INSERT INTO pledges VALUES (200, 12, 7);
--- INSERT INTO pledges VALUES (300, 13, 8);
--- INSERT INTO pledges VALUES (30, 14, 8);
--- INSERT INTO pledges VALUES (40, 15, 8);
--- INSERT INTO pledges VALUES (50, 16, 9);
--- INSERT INTO pledges VALUES (60, 17, 10);
--- INSERT INTO pledges VALUES (75, 18, 2);
--- INSERT INTO pledges VALUES (75, 19, 2);
--- INSERT INTO pledges VALUES (100, 20, 3);
--- INSERT INTO pledges VALUES (40, 11, 1);
--- INSERT INTO pledges VALUES (100, 15, 10);
+
+INSERT INTO pledges (id, amount, user_id, project_id) VALUES
+(1, 200, 7, 2),
+(2, 2000, 20, 1),
+(3, 400, 3, 10),
+(4, 50, 20, 9),
+(5, 5000, 19, 4),
+(6, 200, 3, 5),
+(7, 100, 13, 6),
+(8, 400, 15, 7),
+(9, 100, 3, 8),
+(10, 99, 1, 9),
+(11, 20, 3, 10),
+(12, 300, 2, 1),
+(13, 250, 4, 2),
+(14, 22, 5, 1),
+(15, 2010, 6, 2),
+(16, 500, 8, 3),
+(17, 100, 9, 4),
+(18, 150, 10, 5),
+(19, 175, 11, 6),
+(20, 200, 12, 7),
+(21, 300, 13, 8),
+(22, 30, 14, 8),
+(23, 40, 15, 8),
+(24, 50, 16, 9),
+(25, 60, 17, 10),
+(26, 75, 18, 2),
+(27, 75, 19, 2),
+(28, 100, 20, 3),
+(29, 40, 11, 1),
+(30, 100, 15, 10);
