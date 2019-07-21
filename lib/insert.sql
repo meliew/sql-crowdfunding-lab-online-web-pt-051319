@@ -1,9 +1,4 @@
 
-CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER);
-
-CREATE TABLE pledges (id INTEGER PRIMARY KEY, amount INTEGER, user_id INTEGER, project_id INTEGER);
-
-
 
 INSERT INTO projects VALUES ("January", "Movie", "5/1/19", "5/1/24", 100000);
 INSERT INTO projects VALUES ("February", "Music", "6/1/19", "6/1/24", 250000);
@@ -36,3 +31,36 @@ INSERT INTO users VALUES ("Starr", 41)
 INSERT INTO users VALUES ("Rachel", 19)
 INSERT INTO users VALUES ("Mitch", 28)
 INSERT INTO users VALUES ("Zeke", 23)
+
+INSERT INTO pledges VALUES (200, 7, 2);
+INSERT INTO pledges VALUES (2000, 20, 1);
+INSERT INTO pledges VALUES (400, 3, 10);
+INSERT INTO pledges VALUES (50, 20, 9);
+INSERT INTO pledges VALUES (5000, 19, 4);
+INSERT INTO pledges VALUES (200, 3, 5);
+INSERT INTO pledges VALUES (100, 13, 6);
+INSERT INTO pledges VALUES (400, 15, 7);
+INSERT INTO pledges VALUES (100, 3, 8);
+INSERT INTO pledges VALUES (99, 1, 9);
+INSERT INTO pledges VALUES (20, 3, 10);
+INSERT INTO pledges VALUES (300, 2, 1);
+INSERT INTO pledges VALUES (250, 4, 2);
+INSERT INTO pledges VALUES (22, 5, 1);
+INSERT INTO pledges VALUES (2010, 6, 2);
+INSERT INTO pledges VALUES (5, 8, 3);
+INSERT INTO pledges VALUES (100, 9, 4);
+INSERT INTO pledges VALUES (150, 10, 5);
+INSERT INTO pledges VALUES (175, 11, 6);
+INSERT INTO pledges VALUES (200, 12, 7);
+INSERT INTO pledges VALUES (300, 13, 8);
+INSERT INTO pledges VALUES (30, 14, 8);
+INSERT INTO pledges VALUES (40, 15, 8);
+INSERT INTO pledges VALUES (50, 16, 9);
+INSERT INTO pledges VALUES (60, 17, 10);
+INSERT INTO pledges VALUES (75, 18, 2);
+INSERT INTO pledges VALUES (75, 19, 2);
+INSERT INTO pledges VALUES (100, 20, 3);
+INSERT INTO pledges VALUES (40, 11, 1);
+INSERT INTO pledges VALUES (100, 15, 10);
+
+
