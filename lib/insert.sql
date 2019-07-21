@@ -1,15 +1,15 @@
 
 
-INSERT INTO projects VALUES (1, "January", "Movie", "5/1/19", "5/1/24", 100000);
-INSERT INTO projects VALUES (2, "February", "Music", "6/1/19", "6/1/24", 250000);
-INSERT INTO projects VALUES (3, "March", "Movie", "9/1/20", "9/1/21", 550000);
-INSERT INTO projects VALUES (4, "April", "Movie", "3/19/19", "3/21/21", 854300);
-INSERT INTO projects VALUES (5, "May", "Music", "9/9/19", "10/10/20", 2000);
-INSERT INTO projects VALUES (6, "June", "web series", "6/1/19", "6/25/20", 600000);
-INSERT INTO projects VALUES (7, "July", "Movie", "3/1/19", "3/1/29", 100000);
-INSERT INTO projects VALUES (8, "August", "web series", "5/11/19", "5/1/20", 100000);
-INSERT INTO projects VALUES (9, "September", "web series", "9/1/19", "9/1/24", 800000);
-INSERT INTO projects VALUES (10, "October", "Movie", "10/10/19", "10/10/20", 670000);
+INSERT INTO projects VALUES ("January", "Movie", "5/1/19", "5/1/24", 100000);
+INSERT INTO projects VALUES ("February", "Music", "6/1/19", "6/1/24", 250000);
+INSERT INTO projects VALUES ("March", "Movie", "9/1/20", "9/1/21", 550000);
+INSERT INTO projects VALUES ("April", "Movie", "3/19/19", "3/21/21", 854300);
+INSERT INTO projects VALUES ("May", "Music", "9/9/19", "10/10/20", 2000);
+INSERT INTO projects VALUES ("June", "web series", "6/1/19", "6/25/20", 600000);
+INSERT INTO projects VALUES ("July", "Movie", "3/1/19", "3/1/29", 100000);
+INSERT INTO projects VALUES ("August", "web series", "5/11/19", "5/1/20", 100000);
+INSERT INTO projects VALUES ("September", "web series", "9/1/19", "9/1/24", 800000);
+INSERT INTO projects VALUES ("October", "Movie", "10/10/19", "10/10/20", 670000);
 
 INSERT INTO users VALUES ("Melissa", 29)
 INSERT INTO users VALUES ("Alli", 21)
