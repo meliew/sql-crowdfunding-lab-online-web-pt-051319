@@ -1,16 +1,16 @@
 
 
 INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES
-(1, "January", "Movie", 100000, "5/1/19", "5/1/24");
-(2, "February", "Music", 250000, "6/1/19", "6/1/24");
-(3, "March", "Movie", 550000, "9/1/20", "9/1/21");
-(4, "April", "Movie", 854300, "3/19/19", "3/21/21");
-(5, "May", "Music", 2000, "9/9/19", "10/10/20");
-(6, "June", "web series", 600000, "6/1/19", "6/25/20");
-(7, "July", "Movie", 100000, "3/1/19", "3/1/29");
-(8, "August", "web series", 100000, "5/11/19", "5/1/20");
-(9, "September", "web series", 800000, "9/1/19", "9/1/24");
-(10, "October", "Movie", 670000, "10/10/19", "10/10/20");
+(1, "January", "Movie", 100000, "5/1/19", "5/1/24"),
+(2, "February", "Music", 250000, "6/1/19", "6/1/24"),
+(3, "March", "Movie", 550000, "9/1/20", "9/1/21"),
+(4, "April", "Movie", 854300, "3/19/19", "3/21/21"),
+(5, "May", "Music", 2000, "9/9/19", "10/10/20"),
+(6, "June", "web series", 600000, "6/1/19", "6/25/20"),
+(7, "July", "Movie", 100000, "3/1/19", "3/1/29"),
+(8, "August", "web series", 100000, "5/11/19", "5/1/20"),
+(9, "September", "web series", 800000, "9/1/19", "9/1/24"),
+(10, "October", "Movie", 670000, "10/10/19", "10/10/20"),
 
 -- INSERT INTO users VALUES ("Melissa", 29);
 -- INSERT INTO users VALUES ("Alli", 21);
