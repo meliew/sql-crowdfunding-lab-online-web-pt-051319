@@ -18,7 +18,7 @@ INSERT INTO users (id, name, age) VALUES
 (3, "Chad", 27),
 (4, "Todd", 25),
 (5, "Reagan", 20),
- (6, "Noah", 21),
+(6, "Noah", 21),
 (7, "Ella", 23),
 (8, "Mark", 30),
 (9, "Gina", 30),
