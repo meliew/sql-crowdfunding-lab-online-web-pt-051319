@@ -10,7 +10,7 @@ INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) V
 (7, "July", "Movie", 100000, "3/1/19", "3/1/29"),
 (8, "August", "web series", 100000, "5/11/19", "5/1/20"),
 (9, "September", "web series", 800000, "9/1/19", "9/1/24"),
-(10, "October", "Movie", 670000, "10/10/19", "10/10/20"),
+(10, "October", "Movie", 670000, "10/10/19", "10/10/20");
 
 -- INSERT INTO users VALUES ("Melissa", 29);
 -- INSERT INTO users VALUES ("Alli", 21);
