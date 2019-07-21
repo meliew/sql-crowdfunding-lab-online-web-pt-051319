@@ -62,5 +62,3 @@ INSERT INTO pledges VALUES (75, 19, 2);
 INSERT INTO pledges VALUES (100, 20, 3);
 INSERT INTO pledges VALUES (40, 11, 1);
 INSERT INTO pledges VALUES (100, 15, 10);
-
-
