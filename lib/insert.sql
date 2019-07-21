@@ -1,6 +1,6 @@
 
 
-INSERT INTO projects VALUES ("January", "Movie", 100000, "5/1/19", "5/1/24");
+INSERT INTO projects VALUES (title, category, funding_goal, start_date, end_date) ("January", "Movie", 100000, "5/1/19", "5/1/24");
 INSERT INTO projects VALUES ("February", "Music", 250000, "6/1/19", "6/1/24");
 INSERT INTO projects VALUES ("March", "Movie", 550000, "9/1/20", "9/1/21");
 INSERT INTO projects VALUES ("April", "Movie", 854300, "3/19/19", "3/21/21");
