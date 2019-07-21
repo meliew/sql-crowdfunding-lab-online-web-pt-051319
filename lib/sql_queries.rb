@@ -29,7 +29,8 @@ def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_
 end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
-"SELECT users.name, SUM(pledges.amounts) FROM users
+"SELECT users.name, 
+SUM(pledges.amount) FROM users
 INNER JOIN pledges ON pledges.user_id = users.id
 GROUP BY users.name
 ORDER BY SUM(pledges.amount)";
@@ -45,8 +46,6 @@ WHERE projects.category = 'music'";
 end
 
 def selects_the_category_name_and_the_sum_total_of_the_all_its_pledges_for_the_books_category
-  #select category name
-  #sum total of all pledges for books category
 
 "SELECT projects.category,
 SUM(pledges.amount)
