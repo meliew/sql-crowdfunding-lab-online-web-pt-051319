@@ -1,15 +1,15 @@
 
 
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("January", "Movie", 100000, "5/1/19", "5/1/24");
-INSERT INTO projects (title, category, start_date, end_date, funding_goal) VALUES ("February", "Music", 250000, "6/1/19", "6/1/24");
-INSERT INTO projects (title, category, start_date, end_date, funding_goal) VALUES ("March", "Movie", 550000, "9/1/20", "9/1/21");
-INSERT INTO projects (title, category, start_date, end_date, funding_goal) VALUES ("April", "Movie", 854300, "3/19/19", "3/21/21");
-INSERT INTO projects (title, category, start_date, end_date, funding_goal) VALUES ("May", "Music", 2000, "9/9/19", "10/10/20");
-INSERT INTO projects (title, category, start_date, end_date, funding_goal) VALUES ("June", "web series", 600000, "6/1/19", "6/25/20");
-INSERT INTO projects (title, category, start_date, end_date, funding_goal) VALUES ("July", "Movie", 100000, "3/1/19", "3/1/29");
-INSERT INTO projects (title, category, start_date, end_date, funding_goal) VALUES ("August", "web series", 100000, "5/11/19", "5/1/20");
-INSERT INTO projects (title, category, start_date, end_date, funding_goal) VALUES ("September", "web series", 800000, "9/1/19", "9/1/24");
-INSERT INTO projects (title, category, start_date, end_date, funding_goal) VALUES ("October", "Movie", 670000, "10/10/19", "10/10/20");
+INSERT INTO projects VALUES ("January", "Movie", 100000, "5/1/19", "5/1/24");
+INSERT INTO projects VALUES ("February", "Music", 250000, "6/1/19", "6/1/24");
+INSERT INTO projects VALUES ("March", "Movie", 550000, "9/1/20", "9/1/21");
+INSERT INTO projects VALUES ("April", "Movie", 854300, "3/19/19", "3/21/21");
+INSERT INTO projects VALUES ("May", "Music", 2000, "9/9/19", "10/10/20");
+INSERT INTO projects VALUES ("June", "web series", 600000, "6/1/19", "6/25/20");
+INSERT INTO projects VALUES ("July", "Movie", 100000, "3/1/19", "3/1/29");
+INSERT INTO projects VALUES ("August", "web series", 100000, "5/11/19", "5/1/20");
+INSERT INTO projects VALUES ("September", "web series", 800000, "9/1/19", "9/1/24");
+INSERT INTO projects VALUES ("October", "Movie", 670000, "10/10/19", "10/10/20");
 
 INSERT INTO users VALUES ("Melissa", 29)
 INSERT INTO users VALUES ("Alli", 21)
