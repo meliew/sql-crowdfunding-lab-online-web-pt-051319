@@ -12,26 +12,27 @@ INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) V
 (9, "September", "web series", 800000, "9/1/19", "9/1/24"),
 (10, "October", "Movie", 670000, "10/10/19", "10/10/20");
 
--- INSERT INTO users VALUES ("Melissa", 29);
--- INSERT INTO users VALUES ("Alli", 21);
--- INSERT INTO users VALUES ("Chad", 27);
--- INSERT INTO users VALUES ("Todd", 25);
--- INSERT INTO users VALUES ("Reagan", 20);
--- INSERT INTO users VALUES ("Noah", 21);
--- INSERT INTO users VALUES ("Ella", 23);
--- INSERT INTO users VALUES ("Mark", 30);
--- INSERT INTO users VALUES ("Gina", 30);
--- INSERT INTO users VALUES ("Ambre", 25);
--- INSERT INTO users VALUES ("Aubrey", 26);
--- INSERT INTO users VALUES ("Billy", 24);
--- INSERT INTO users VALUES ("Matt", 31);
--- INSERT INTO users VALUES ("Lydia", 20);
--- INSERT INTO users VALUES ("Max", 21);
--- INSERT INTO users VALUES ("Luke", 40);
--- INSERT INTO users VALUES ("Starr", 41);
--- INSERT INTO users VALUES ("Rachel", 19);
--- INSERT INTO users VALUES ("Mitch", 28);
--- INSERT INTO users VALUES ("Zeke", 23);
+INSERT INTO users (id, name, age) VALUES
+(1, "Melissa", 29),
+(2, "Alli", 21),
+(3, "Chad", 27),
+(4, "Todd", 25),
+(5, "Reagan", 20),
+ (6, "Noah", 21),
+(7, "Ella", 23),
+(8, "Mark", 30),
+(9, "Gina", 30),
+(10, "Ambre", 25),
+(11, "Aubrey", 26),
+(12, "Billy", 24),
+(13, "Matt", 31),
+(14, "Lydia", 20),
+(15, "Max", 21),
+(16, "Luke", 40),
+(17, "Starr", 41),
+(18, "Rachel", 19),
+(19, "Mitch", 28),
+(20, "Zeke", 23);
 --
 -- INSERT INTO pledges VALUES (200, 7, 2);
 -- INSERT INTO pledges VALUES (2000, 20, 1);
